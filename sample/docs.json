@@ -1,0 +1,14 @@
+{
+  "term": "quick",
+  "deleted_term": "jumps",
+  "delete": "d3",
+  "term_count": 10,
+  "phrase_invariant": true,
+  "invariant_docs": ["d1", "d2"],
+  "phrases": [["quick", "brown"], ["brown", "fox"]],
+  "docs": [
+    {"doc": "d1", "text": "the quick brown fox"},
+    {"doc": "d2", "text": "quick brown quick"},
+    {"doc": "d3", "text": "brown fox jumps"}
+  ]
+}
